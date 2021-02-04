@@ -1,0 +1,10 @@
+[user]
+	email=null
+	name=void
+[core]
+	pager=less -FRX
+#	pager=less -FRX -+x -+R
+
+[includeIf "gitdir/i:/path/to/git/repo/"]
+	path=/path/to/git/repo/.gitconfig
+
